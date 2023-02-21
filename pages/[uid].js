@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { SliceZone } from "@prismicio/react";
 import * as prismicH from "@prismicio/helpers";
+import Link from "next/link";
 
 import { createClient } from "../prismicio";
 import { components } from "../slices";
@@ -15,7 +16,12 @@ const Page = ({ page, navigation, settings }) => {
           {prismicH.asText(settings.data.name)}
         </title>
       </Head>
-      <SliceZone slices={page.data.slices} components={components} />
+      <Link href="/" className="back-link">
+        <p>←</p>
+      </Link>
+      <div className="basic-page">
+        <SliceZone slices={page.data.slices} components={components} />
+      </div>
     </Layout>
   );
 };
