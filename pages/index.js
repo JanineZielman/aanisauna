@@ -30,9 +30,6 @@ const Index = ({ events, navigation, settings }) => {
           return(
             <div className={`event`} key={`event${i}`} style={{'--color': item.data.color }}>
               <div className="click-function" onClick={toggleClass}></div>
-              <div className="hidden-content">
-                <PrismicNextImage field={item.data.mainimage} sizes="100vw" className="main-image" />
-              </div>
               <div className="preview">
                 <div className="flex item">
                   <div className="date">{Moment(item.data.date).format("DD/MM/Y")}</div>
@@ -47,6 +44,7 @@ const Index = ({ events, navigation, settings }) => {
                 </div>
               </div>
               <div className="hidden-content">
+                <PrismicNextImage field={item.data.mainimage} sizes="50vw" className="main-image" />
                 <SliceZone slices={item.data.slices} components={components} />
               </div>
             </div>
