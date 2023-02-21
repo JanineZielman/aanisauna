@@ -1,0 +1,56 @@
+{
+  "name": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "heading1",
+        "content": {
+          "text": "Parallel"
+        }
+      }
+    ]
+  },
+  "description": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Sunt eiusmod non enim esse qui eiusmod labore. Veniam ut eiusmod qui. Sit adipisicing pariatur non irure anim proident minim sit exercitation quis cillum dolor."
+        }
+      }
+    ]
+  },
+  "socialImage": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482",
+      "width": 4016,
+      "height": 6016
+    },
+    "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?rect=0%2C1000%2C4016%2C4016&w=2000&h=2000",
+    "width": 2000,
+    "height": 2000,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 1000
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "footertext": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Voluptate duis ipsum laboris adipisicing consequat adipisicing Lorem culpa exercitation cupidatat nulla."
+        }
+      }
+    ]
+  }
+}

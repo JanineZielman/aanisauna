@@ -1,0 +1,11 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "strange"
+  },
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "below",
+    "type": "Text"
+  }
+}
