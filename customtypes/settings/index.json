@@ -34,13 +34,13 @@
           "thumbnails": []
         }
       },
-      "footertext": {
+      "about": {
         "type": "StructuredText",
         "config": {
-          "label": "FooterText",
+          "label": "About",
           "placeholder": "",
           "allowTargetBlank": true,
-          "multi": "paragraph,strong,em,hyperlink"
+          "multi": "paragraph,em,strong,hyperlink"
         }
       }
     }

@@ -23,7 +23,7 @@ const Index = ({ events, navigation, settings }) => {
         <title>{prismicH.asText(settings.data.name)}</title>
       </Head>
       <h1 className="marquee">
-        <span>{prismicH.asText(settings.data.name)}&nbsp;&nbsp;{prismicH.asText(settings.data.name)}&nbsp;&nbsp;{prismicH.asText(settings.data.name)}&nbsp;&nbsp;</span>
+        <span>{prismicH.asText(settings.data.name)}&nbsp;&nbsp;{prismicH.asText(settings.data.name)}&nbsp;&nbsp;{prismicH.asText(settings.data.name)}&nbsp;&nbsp;{prismicH.asText(settings.data.name)}&nbsp;&nbsp;{prismicH.asText(settings.data.name)}&nbsp;&nbsp;{prismicH.asText(settings.data.name)}&nbsp;&nbsp;</span>
       </h1>
       <div className="events">
         {events.map((item, i) => {
@@ -50,6 +50,9 @@ const Index = ({ events, navigation, settings }) => {
             </div>
           )
         })}
+      </div>
+      <div id="about">
+        <PrismicRichText field={settings.data.about}/>
       </div>
     </Layout>
   );

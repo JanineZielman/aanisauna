@@ -32,7 +32,7 @@
           "blocks": 1
         }
       },
-      "footertext": {
+      "about": {
         "config": {
           "patternType": "PARAGRAPH",
           "blocks": 1
