@@ -52,7 +52,6 @@ const Index = ({ events, navigation, settings }) => {
         })}
       </div>
       <div id="about">
-        <p>About</p>
         <div className="about">
           <PrismicNextImage field={settings.data.socialImage} sizes="50vw" className="about-image" />
           <PrismicRichText field={settings.data.about}/>

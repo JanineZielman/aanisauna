@@ -8,7 +8,6 @@ export const Header = ({ navigation}) => {
   return (
     <div className="menu">
       {navigation.data.links.map((item, i) => {
-        console.log(item)
         return(
           <Link href={`#${item.label[0].text.toLowerCase()}`} key={`link${i}`}>
             <PrismicText field={item.label} />
