@@ -248,6 +248,17 @@ interface SettingsDocumentData {
      *
      */
     about: prismicT.RichTextField;
+    /**
+     * Scroll Text field in *Settings*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: settings.scroll_text
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    scroll_text: prismicT.KeyTextField;
 }
 /**
  * Settings document from Prismic

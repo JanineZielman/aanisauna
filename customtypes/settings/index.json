@@ -42,6 +42,13 @@
           "allowTargetBlank": true,
           "multi": "paragraph,em,strong,hyperlink"
         }
+      },
+      "scroll_text": {
+        "type": "Text",
+        "config": {
+          "label": "Scroll Text",
+          "placeholder": ""
+        }
       }
     }
   }
