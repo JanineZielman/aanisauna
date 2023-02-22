@@ -25,6 +25,10 @@ $body: 18px;
   scroll-padding: 160px;
 }
 
+a{
+  color: $blue;
+}
+
 strong{
   font-weight: 700;
 }
@@ -200,11 +204,12 @@ h1{
     display: flex;
     p{
       margin-left: 24px;
+      width: 40%;
     }
   }
 }
 
 .about-image{
-  width: 300px;
+  width: 50%;
   height: auto;
 }
