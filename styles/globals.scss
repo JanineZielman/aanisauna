@@ -32,7 +32,7 @@ h1{
   font-size: 150px;
   line-height: 1;
   margin: 0;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .marquee {
@@ -40,8 +40,7 @@ h1{
   white-space: nowrap;
   overflow: hidden;
   position: fixed;
-  top: 30px;
-  // top: -150px;
+  top: 0px;
   width: 94vw;
   z-index: 888;
   background-color: white;
@@ -75,7 +74,7 @@ h1{
 }
 
 .events{
-  margin-top: 250px;
+  margin-top: 180px;
   position: relative;
   width: 100%;
 }
@@ -126,11 +125,11 @@ h1{
 
 .menu{
   text-align: right;
-  background-color: white;
+  // background-color: white;
   padding: 0.5vw 1vw;
   position: fixed;
   width: 93vw;
-  top: 0;
+  bottom: 0;
   left: 3vw;
   z-index: 999;
   a{
@@ -142,9 +141,9 @@ h1{
 .basic-text{
   font-weight: 500;
   font-size: $body;
-  width: 45%;
+  width: 40%;
   display: inline-block;
-  margin-right: 5%;
+  margin-right: 7.5%;
   p{
     line-height: 1.3;
   }
