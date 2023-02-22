@@ -6,6 +6,12 @@
 
 @font-face {
   font-family: "Monument";
+  src: url("./ABCMonumentGrotesk-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Monument";
   src: url("./ABCMonumentGroteskSemi-Mono-Regular.woff2") format("woff2");
   font-weight: 300;
 }
@@ -17,6 +23,10 @@ $body: 18px;
 *{
   scroll-behavior: smooth;
   scroll-padding: 160px;
+}
+
+strong{
+  font-weight: 700;
 }
 
 body{
@@ -186,4 +196,15 @@ h1{
 
 #about{
   margin-top: 100px;
+  .about{
+    display: flex;
+    p{
+      margin-left: 24px;
+    }
+  }
+}
+
+.about-image{
+  width: 300px;
+  height: auto;
 }

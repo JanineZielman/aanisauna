@@ -19,4 +19,10 @@
     width: 94vw;
     height: auto;
   }
+  #about .about{
+    flex-direction: column;
+    p{
+      margin-left: 0;
+    }
+  }
 }

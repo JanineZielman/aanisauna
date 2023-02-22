@@ -10,6 +10,7 @@ import { components } from "../slices";
 import { useEffect } from "react";
 
 const Index = ({ events, navigation, settings }) => {
+  console.log(settings.data)
   function toggleClass(e) {
     e.target.parentElement.classList.toggle("show-hidden");
   }
@@ -51,7 +52,11 @@ const Index = ({ events, navigation, settings }) => {
         })}
       </div>
       <div id="about">
-        <PrismicRichText field={settings.data.about}/>
+        <p>About</p>
+        <div className="about">
+          <PrismicNextImage field={settings.data.socialImage} sizes="50vw" className="about-image" />
+          <PrismicRichText field={settings.data.about}/>
+        </div>
       </div>
     </Layout>
   );
