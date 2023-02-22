@@ -119,7 +119,7 @@ h1{
     width: 50%;
     max-width: 50%;
     object-fit: contain;
-    object-position: left;
+    object-position: left top;
     display: inline-block;
   }
 }
@@ -147,6 +147,9 @@ h1{
   margin-right: 7.5%;
   p{
     line-height: 1.3;
+    &:first-child{
+      margin-top: 0;
+    }
   }
 }
 

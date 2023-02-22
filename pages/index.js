@@ -11,7 +11,6 @@ import { useEffect } from "react";
 
 const Index = ({ events, navigation, settings }) => {
   function toggleClass(e) {
-    console.log(e.target.parentElement);
     e.target.parentElement.classList.toggle("show-hidden");
   }
   return (
