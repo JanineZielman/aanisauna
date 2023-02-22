@@ -16,6 +16,7 @@ $body: 18px;
 
 *{
   scroll-behavior: smooth;
+  scroll-padding: 160px;
 }
 
 body{
@@ -30,9 +31,9 @@ body{
 
 h1{
   font-size: 150px;
-  line-height: 1;
+  line-height: 0.8;
   margin: 0;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .marquee {
