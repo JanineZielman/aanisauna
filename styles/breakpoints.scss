@@ -1,12 +1,24 @@
 @media only screen and (max-width: 600px) {
+  $title: 36px;
+
+  body{
+    font-size: 18px;
+  }
+
+  .title, .subtitle{
+    font-size: $title;
+    line-height: 1;
+  }
+
   h1{
     padding-top: 30px;
+    font-size: 120px;
   }
   .marquee {
     top: 0;
   }
   .events{
-    margin-top: 160px;
+    margin-top: 135px;
   }
   .basic-text, .event .main-image{
     width: 100%;
