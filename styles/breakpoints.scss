@@ -1,5 +1,6 @@
 @media only screen and (max-width: 600px) {
   $title: 36px;
+  $body: 19px;
 
   body{
     font-size: 18px;
@@ -33,6 +34,7 @@
     height: 100%;
     max-height: 100%;;
     margin-right: 0;
+    font-size: $body;
   }
   .basic-image img{
     width: 94vw;
