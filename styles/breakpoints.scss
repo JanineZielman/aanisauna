@@ -20,6 +20,13 @@
   .events{
     margin-top: 135px;
   }
+  .event{
+    .preview{
+      .item{
+        padding: 3vw 0;
+      }
+    }
+  }
   .basic-text, .event .main-image{
     width: 100%;
     max-width: 100%;

@@ -50,6 +50,12 @@ h1{
   padding-top: 50px;
 }
 
+h3{
+  font-size: 14px;
+  margin: 0;
+  padding-bottom: 24px;
+}
+
 .marquee {
   margin: 0 auto;
   white-space: nowrap;
@@ -172,7 +178,7 @@ h1{
 }
 
 .basic-image{
-  margin: 0 0 1vw 0;
+  margin: 1vw 0 0 0;
   width: auto;
   img{
     width: auto;
