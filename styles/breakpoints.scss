@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
   $title: 36px;
-  $body: 19px;
+  $body: 18px;
 
   body{
     font-size: 18px;
@@ -45,6 +45,7 @@
     p{
       margin-left: 0;
       width: 100%;
+      font-size: $body;
     }
   }
 
